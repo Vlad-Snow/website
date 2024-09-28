@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: black;
+  color: white;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+}
+header a {
+  color: white;
+}
+
+.logo {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.space {
+  flex: 2;
+}
+
+header > nav {
+  flex: 6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner{
+    min-height: calc(100vh - 70px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: grey;
+}
+
+.banner h1{
+    background-color: #00000088;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
