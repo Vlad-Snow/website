@@ -1,0 +1,21 @@
+img {
+    animation: cat 2s infinite linear;
+
+}
+
+@keyframes cat {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
